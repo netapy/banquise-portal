@@ -1,4 +1,6 @@
 <script>
+  export const ssr = false;
+  export const prerender = true;
   import { fade, fly } from "svelte/transition";
   import { onMount } from "svelte";
   import SvgLogo from "./svglogo.svelte";
@@ -130,8 +132,7 @@
     margin-right: 15px;
   }
 
-
-  .androidTile:hover{
+  .androidTile:hover {
     background-color: grey;
     transition: 1s;
   }
