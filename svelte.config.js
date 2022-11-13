@@ -11,7 +11,8 @@ const config = {
   kit: {
     trailingSlash: "always",
     adapter: adapter({
-      out: "docs",
+      pages: "docs",
+      assets: "docs",
     }),
   },
 };
