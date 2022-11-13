@@ -9,9 +9,9 @@ const config = {
   preprocess: preprocess(),
 
   kit: {
+    trailingSlash: "always",
     adapter: adapter({
-      pages: "docs",
-      assets: "docs",
+      out: "docs",
     }),
   },
 };

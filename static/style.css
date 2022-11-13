@@ -18,6 +18,11 @@ h5 {
   color: #202020;
 }
 
+a {
+    text-decoration: none!important;
+    color: #202020!important;
+}
+
 /* Grow */
 .hvr-grow {
   display: inline-block;

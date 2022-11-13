@@ -1,6 +1,4 @@
 <script>
-  export const ssr = false;
-  export const prerender = true;
   import { fade, fly } from "svelte/transition";
   import { onMount } from "svelte";
   import SvgLogo from "./svglogo.svelte";
@@ -10,14 +8,8 @@
   onMount(() => {
     ready = true;
   });
-
-  const accessWeb = () => {
-    window.open("https://banquise.app", "_blank").focus();
-  };
-  const accessAppStore = () => {
-    window.open("https://apps.apple.com/app/id6443923021", "_blank").focus();
-  };
 </script>
+
 
 <div class="mainBody container-fluid">
   {#if ready}
@@ -39,14 +31,18 @@
           </div>
           <div class="col-12 col-md-4 p-2">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <div on:click={accessAppStore} class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1700 }}>
-              <img class="companyLogo" src="/apple-logo.svg" alt="apple" />
-              iPhone
-            </div>
+            <a href="https://apps.apple.com/app/id6443923021" target="_blank" rel="noopener noreferrer">
+              <div class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1700 }}>
+                <img class="companyLogo" src="/apple-logo.svg" alt="apple" />
+                iPhone
+              </div>
+            </a>
           </div>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div class="col-12 col-md-4 p-2">
-            <div on:click={accessWeb} class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1800 }}>💻 Web</div>
+            <a href="https://banquise.app/" target="_blank" rel="noopener noreferrer">
+              <div class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1800 }}>💻 Web</div>
+            </a>
           </div>
         </div>
       </div>
