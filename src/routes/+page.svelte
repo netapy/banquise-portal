@@ -1,4 +1,4 @@
-<script context="module">
+<script>
   export const ssr = false;
   export const prerender = true;
   import { fade, fly } from "svelte/transition";
