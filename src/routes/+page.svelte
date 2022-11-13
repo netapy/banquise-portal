@@ -25,7 +25,7 @@
         <div class="row">
           <div class="col-12 col-md-4 p-2">
             <div class="accessTile androidTile p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1600 }}>
-              <img class="companyLogo" src="/android-logo.svg" alt="apple" />
+              <img class="companyLogo" src="android-logo.svg" alt="android" />
               Android
             </div>
           </div>
@@ -33,7 +33,7 @@
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <a href="https://apps.apple.com/app/id6443923021" target="_blank" rel="noopener noreferrer">
               <div class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1700 }}>
-                <img class="companyLogo" src="/apple-logo.svg" alt="apple" />
+                <img class="companyLogo" src="apple-logo.svg" alt="apple" />
                 iPhone
               </div>
             </a>
