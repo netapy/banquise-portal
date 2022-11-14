@@ -11,10 +11,10 @@
 </script>
 
 
-<div class="mainBody container-fluid">
+<div class="mainBody container-fluid d-flex flex-column">
   {#if ready}
     <!-- Main -->
-    <div class="titleContainer px-2 py-5 d-flex align-items-center justify-content-center flex-column">
+    <div class="titleContainer px-2 py-2 py-md-5 d-flex align-items-center justify-content-center flex-column">
       <div class="logoBqz">
         <svelte:component this={SvgLogo} />
       </div>
@@ -23,33 +23,33 @@
       </h1>
       <div class="buttonsContainer p-4 mt-3 text-center">
         <div class="row">
-          <div class="col-12 col-md-4 p-2">
-            <div class="accessTile androidTile p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1600 }}>
+          <div class="col-12 col-md-4 p-1 p-md-2">
+            <div class="accessTile androidTile p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1600 }}>
               <img class="companyLogo" src="android-logo.svg" alt="android" />
               Android
             </div>
           </div>
-          <div class="col-12 col-md-4 p-2">
+          <div class="col-12 col-md-4 p-1 p-md-2">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <a href="https://apps.apple.com/app/id6443923021" target="_blank" rel="noopener noreferrer">
-              <div class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1700 }}>
+              <div class="accessTile hvr-grow p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1700 }}>
                 <img class="companyLogo" src="apple-logo.svg" alt="apple" />
                 iPhone
               </div>
             </a>
           </div>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <div class="col-12 col-md-4 p-2">
+          <div class="col-12 col-md-4 p-1 p-md-2">
             <a href="https://banquise.app/" target="_blank" rel="noopener noreferrer">
-              <div class="accessTile hvr-grow p-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1800 }}>💻 Web</div>
+              <div class="accessTile hvr-grow p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1800 }}>💻 Web</div>
             </a>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer -->
-    <div class="container-fluid" in:fade={{ duration: 700, delay: 1800 }}>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+    <div class="container-fluid mt-auto" in:fade={{ duration: 700, delay: 1800 }}>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
         <div class="col-md-4 d-flex align-items-center">
           <span class="mb-md-0 text-muted">&copy; 2022 Banquise</span>
         </div>
