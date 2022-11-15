@@ -24,10 +24,13 @@
       <div class="buttonsContainer p-4 mt-3 text-center">
         <div class="row">
           <div class="col-12 col-md-4 p-1 p-md-2">
-            <div class="accessTile androidTile p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1600 }}>
-              <img class="companyLogo" src="android-logo.svg" alt="android" />
-              Android
-            </div>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <a href="https://play.google.com/store/apps/details?id=com.bqz.banquise" target="_blank" rel="noopener noreferrer">
+              <div class="accessTile hvr-grow p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1700 }}>
+                <img class="companyLogo" src="android-logo.svg" alt="apple" />
+                Android
+              </div>
+            </a>
           </div>
           <div class="col-12 col-md-4 p-1 p-md-2">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -41,7 +44,10 @@
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div class="col-12 col-md-4 p-1 p-md-2">
             <a href="https://banquise.app/" target="_blank" rel="noopener noreferrer">
-              <div class="accessTile hvr-grow p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1800 }}>💻 Web</div>
+              <div class="accessTile hvr-grow p-3 p-md-4 w-100 " in:fly={{ y: 20, duration: 1400, delay: 1800 }}>
+                <div class="companyLogo">💻</div>
+                Web
+              </div>
             </a>
           </div>
         </div>
@@ -56,7 +62,7 @@
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
-            <a class="text-muted opacity-25" href="https://twitter.com/banquiseApp"
+            <a class="text-muted opacity-25" href="https://twitter.com/banquiseApp" target="_blank" rel="noopener noreferrer"
               ><svg class="bi" width="24" height="24"><use xlink:href="#twitter" /></svg></a
             >
           </li>
