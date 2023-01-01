@@ -21,6 +21,10 @@
       <h1 out:fly={{ y: -10, duration: 400 }} in:fly={{ y: 20, duration: 1400, delay: 1400 }}>
         <span class="bigTitle">banquise</span>
       </h1>
+      <div out:fly={{ y: -10, duration: 400 }} in:fly={{ y: 20, duration: 1400, delay: 1400 }}>
+        <h2 style="font-size:2.2rem;" class="opacity-50">(ban•kiz)</h2>
+      </div>
+      <hr>
       <div class="buttonsContainer p-4 mt-3 text-center">
         <div class="row">
           <div class="col-12 col-md-4 p-1 p-md-2">
