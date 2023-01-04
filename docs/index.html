@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Play Banquise</title>
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-		<link href="./style.css" rel="stylesheet">
-		<meta http-equiv="content-security-policy" content="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Play Banquise</title>
+    <link rel="icon" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <!-- Matomo -->
+    <script>
+      var _paq = (window._paq = window._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "https://home.banquise.app/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.async = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
+    <meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_page-d36b9615.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-91dd3ddf.js">
+		<link rel="modulepreload" href="./_app/immutable/start-8275b694.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-9fa92dce.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-cbd75997.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-c7d75e7e.js">
 		<link rel="modulepreload" href="./_app/immutable/components/layout.svelte-a71ccb26.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-12dbefcd.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-2c72df48.js">
 		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-896b405c.js">
-	</head>
-	<body>
-		<div>
+  </head>
+  <body>
+    <div>
 
 
 <div class="mainBody container-fluid d-flex flex-column svelte-1om2ams"></div>
@@ -28,7 +56,7 @@
 
 
 		<script type="module" data-sveltekit-hydrate="18rj1lp">
-			import { start } from "./_app/immutable/start-91dd3ddf.js";
+			import { start } from "./_app/immutable/start-8275b694.js";
 
 			start({
 				env: {},
@@ -47,5 +75,5 @@
 			});
 		</script>
 	</div>
-	</body>
+  </body>
 </html>
