@@ -61,7 +61,7 @@
     <div class="container-fluid mt-auto" in:fade={{ duration: 700, delay: 1800 }}>
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
         <div class="col-md-4 d-flex align-items-center">
-          <span class="mb-md-0 text-muted">&copy; 2022 Banquise</span>
+          <span class="mb-md-0 text-muted">&copy; 2023 Banquise</span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
